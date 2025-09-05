@@ -1,12 +1,13 @@
 
-import { Counter } from "./components"
+import { 
+  // Counter, 
+  CounterWithHook 
+} from "./components"
 import { 
   // BasicFunctional,
   // BasicType, 
   // ObjectLiteral 
 } from "./typescript"
-
-
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <BasicType/> */}
       {/* <ObjectLiteral/> */}
       {/* <BasicFunctional/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <CounterWithHook/>
     </main>
   )
 }
